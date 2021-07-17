@@ -261,10 +261,6 @@
           flex-direction: column;
 }
 
-.about footer {
-  -webkit-transform: rotate(90deg) translate(-3rem, -5rem);
-          transform: rotate(90deg) translate(-3rem, -5rem);
-}
 
 .projects {
   padding-bottom: 2rem;
@@ -376,11 +372,6 @@
           flex-direction: column;
 }
 
-.projects footer {
-  -webkit-transform: rotate(90deg) translate(-3rem, -5rem);
-          transform: rotate(90deg) translate(-3rem, -5rem);
-}
-
 .contact {
   height: 100%;
   padding-top: 40vh;
@@ -428,10 +419,11 @@
     .contact__email, .contact__phone, .contact__address {
       text-align: center;
     }
-    .contact footer {
+    .about footer, .projects footer, .contact footer {
       -webkit-transform: rotate(90deg) translate(-3rem, -5rem);
               transform: rotate(90deg) translate(-3rem, -5rem);
   }
+}
 
 @media screen and (min-width: 768px) {
   .menu-btn {
