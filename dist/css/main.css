@@ -469,7 +469,7 @@
       -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
   }
-  .contact__email, .contact__phone, .contact__address {
+  .contact .contact__email, .contact__phone, .contact__address {
     text-align: center;
   }
 }
